@@ -1,0 +1,27 @@
+{
+  "name": "crm_management_system",
+  "version": "1.0.0",
+  "description": "crm_management_system is a crm software, offering easy-to-use software solutions to manage your insurance needs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/anjanisingh953/crm_management_system.git"
+  },
+  "author": "Anjani Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anjanisingh953/crm_management_system/issues"
+  },
+  "homepage": "https://github.com/anjanisingh953/crm_management_system#readme",
+  "dependencies": {
+    "csv-parser": "^3.2.0",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "mongoose": "^8.17.1",
+    "multer": "^2.0.2",
+    "node-cron": "^4.2.1"
+  }
+}
